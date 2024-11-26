@@ -1,0 +1,763 @@
+*{
+    font-family: 'titillium_web';
+}
+@font-face {
+    font-family: 'titillium_web';
+    src: url('/fuentes/titilliumweb-regular-webfont.woff2') format('woff2'),
+         url('/fuentes/titilliumweb-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.titulo{
+    background-color: rgb(50, 132, 224);
+    width: 50vw;
+    height: 10vh;
+    margin-left:25vw ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    text-align: center;
+    
+   
+  
+    
+    
+}
+.principal{
+  
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+   
+
+
+
+}
+.fila1{
+  
+    width: 100%;
+    height: 8vh;
+    color: white;
+    display: flex;
+
+
+}
+.fila2{
+    
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     margin-top: 10px;
+ 
+ 
+ }
+ .fila3{
+   
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     margin-top: 10px;
+ 
+ 
+ }
+ .fila4{
+  
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     margin-top: 10px;
+ 
+ 
+ }
+ .fila5{
+   
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     margin-top: 10px;
+ 
+ 
+ }
+ .fila6{
+  
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     margin-top: 10px;
+ 
+ 
+ }
+ .fila7{
+   
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     
+     margin-top: 10px;
+ 
+ 
+ }
+ .fila8{
+    
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     
+     margin-top: 25px;
+ 
+ 
+ }
+ .fila9{
+   
+     width: 100%;
+     height: 8vh;
+     color: white;
+     display: flex;
+     
+     margin-top: 10px;
+ 
+ 
+ }
+.margen_superior{
+    height: 3vh;
+    width: 100%;
+    background-color: white;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.H{
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #f58021;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.H:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+
+.He{
+    margin-left: 93.8vw;
+    height: 8vh;
+    width: 4vw;
+    background-color: #006a36;
+    display: flex;
+    flex-direction:column ;
+    float: right;
+    position: absolute;
+    transition: 0.1s;
+}
+.He:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+
+.Fr{
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #002a4e;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+}
+.Fr:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Ra{
+    margin-left: 94px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #fdba12;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    color: black;
+    
+}
+.Ra:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Lr{
+    margin-left: 178px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+}
+.Lr:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Rf{
+    margin-left: 262px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+}
+.Rf:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+.Db{
+    margin-left: 346px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Db:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Sg{
+    margin-left: 430px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Sg:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Bh{
+    margin-left: 514px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+}
+.Bh:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Hs{
+    margin-left: 598px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+}
+.Hs:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+
+.Mt{
+    margin-left: 682px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Mt:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Ds{
+    margin-left: 766px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Ds:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Rg{
+    margin-left: 850px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #0088ce;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Rg:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Cn{
+    margin-left: 934px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    background-color: #0088ce;
+    
+}
+.Cn:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Nh{
+    margin-left: 1018px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #781e77 ;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+}
+.Nh:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+.Fl{
+    margin-left: 1102px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #781e77;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Fl:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+
+.Mc{
+    margin-left: 1186px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #f58021;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Mc:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+
+.Lv{
+    margin-left: 1270px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #f58021;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Lv:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+.Ts{
+    margin-left: 1354px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #a2b427;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    color: black;
+    
+}
+.Ts:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+.Og{
+    margin-left: 1440px;
+    height: 8vh;
+    width: 4vw;
+    background-color: #006a36;
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    transition: 0.1s;
+    
+}
+.Og:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+.num2{
+    
+    margin-left: 94px;
+    height: 8vh;
+    width: 4vw;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-direction:column-reverse ;
+    position: absolute;
+
+}
+.num3{
+    
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 178px;
+    position: absolute;
+    color: black;
+     
+}
+.num4{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 262px;
+    position: absolute;
+     
+}
+.num5{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 346px;
+    position: absolute;
+     
+}
+.num6{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 430px;
+    position: absolute;
+     
+}
+.num7{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 514px;
+    position: absolute;
+     
+}
+.num8{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 598px;
+    position: absolute;
+     
+}
+.num9{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 682px;
+    position: absolute;
+     
+}
+.num10{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 766px;
+    position: absolute;
+     
+}
+.num11{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 850px;
+    position: absolute;
+     
+}
+.num12{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 934px;
+    position: absolute;
+     
+}
+.num13{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 1018px;
+    position: absolute;
+     
+}
+.num14{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+    text-align: center;
+    margin-left: 1102px;
+    position: absolute;
+     
+}
+.num15{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+   margin-left: 1186px;
+    position: absolute;
+     
+}
+.num16{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 1270px;
+    position: absolute;
+     
+}
+.num17{
+    color: black;
+    margin-left: 10px;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction:column-reverse ;
+   text-align: center;
+    margin-left: 1354px;
+    position: absolute;
+     
+}
+.num18{
+    margin-left: 1436px;
+    height: 3vh;
+    width: 4vw;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-direction:column-reverse ;
+    position: absolute;
+}
+.numero_masa{
+ 
+    height: 2vh;
+    width: 100%;
+    font-size: x-small;
+   display: flex;
+   float: left;
+   
+ 
+}
+.numato{
+    display: block;
+    margin-left: 2px;
+    height: 2vh;
+    width: 1vh;
+}
+.numasa{
+    display: block;
+    position: absolute;
+    height: 2vh;
+    width: 2vh;
+    margin-left: 2.6vw;
+}
+.numasa2{
+    display: block;
+    position: absolute;
+    height: 2vh;
+    width: 2vh;
+    margin-left: 2.5vw;
+}
+.numasa3{
+    display: block;
+    position: absolute;
+    height: 2vh;
+    width: 2vh;
+    margin-left: 2vw;
+}
+.numasa4{
+    display: block;
+    position: absolute;
+    height: 2vh;
+    width: 2vh;
+    margin-left: 2.8vw;
+}
+.sim{
+    height: 4vh;
+    width: 2.6vw;
+  
+    padding-left: 1.4vw;
+    display: flex;
+    font-weight: bolder;
+    text-align: center;
+}
+.nom{
+    font-size: x-small;
+   
+    padding-bottom: 0.5vh;
+    text-align: center;
+}
+.azul_marino{
+    background-color: #002a4e
+}
+.amarillo{
+    background-color: #fdba12;
+    color: black;
+}
+.azul{
+    background-color: #0088ce;
+}
+.morado{
+    background-color: #781e77;
+}
+.rojo{
+    background-color: #ed1944;
+}
+.naranja{
+    background-color: #f58021;
+    color:  black;
+}
+.verde_claro{
+    background-color: #a2b427;
+    color: black;
+}
+.verde_fuerte{
+    background-color: #006a36;
+}
+.verde_palido{
+    background-color:#cbd48e ;
+    color: black;
+}
+.verde_medio{
+    background-color: #67a484;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+   
+    
+}
+body{
+  
+   
+    height: 105vh;
+}
+p{
+    color: black;
+}
+
