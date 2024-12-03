@@ -3,8 +3,8 @@
 }
 @font-face {
     font-family: 'titillium_web';
-    src: url('/fuentes/titilliumweb-regular-webfont.woff2') format('woff2'),
-         url('/fuentes/titilliumweb-regular-webfont.woff') format('woff');
+    src: url('/fuentes/titilliumweb-regular-webfont.woff2') 
+         url('/fuentes/titilliumweb-regular-webfont.woff') 
     font-weight: normal;
     font-style: normal;
 
