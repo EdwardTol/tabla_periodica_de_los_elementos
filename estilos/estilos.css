@@ -1,6 +1,4 @@
-*{
-    font-family: 'titillium_web';
-}
+
 @font-face {
     font-family: 'titillium_web';
     src: url('/fuentes/titilliumweb-regular-webfont.woff2') format('woff2'),
@@ -8,6 +6,9 @@
     font-weight: normal;
     font-style: normal;
 
+}
+*{
+    font-family: 'titillium_web';
 }
 .titulo{
     background-color: rgb(50, 132, 224);
